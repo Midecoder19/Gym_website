@@ -5,6 +5,7 @@ const Navbar = () => {
     <header>
       <p>ELITE EDGE FITNESS</p>
     </header>
+    
   );
 };
 

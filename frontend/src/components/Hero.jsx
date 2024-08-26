@@ -14,7 +14,7 @@ const Hero = () => {
           <p>Unleash Your Potential</p>
         </div>
         <div className="buttons">
-          <button>Start Your Journey</button>
+          <a href="https://fitness-tracker-self.vercel.app/"><button>Start Your Journey</button></a>
           <button>Discover Your Plan</button>
         </div>
       </div>

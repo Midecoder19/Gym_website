@@ -31,7 +31,7 @@ router.post("/send/mail", async (req, res, next) => {
   }
   try {
     await sendEmail({
-      email: "merndeveloper4@gmail.com",
+      email: "ayomidebabarinde07@gmail.com",
       subject: "GYM WEBSITE CONTACT",
       message,
       userEmail: email,
@@ -50,6 +50,6 @@ router.post("/send/mail", async (req, res, next) => {
 
 app.use(router);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server listening at port ${process.env.PORT}`);
+app.listen(2023, () => {
+  console.log(`Server listening at port ${2023}`);
 });
